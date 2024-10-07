@@ -5,12 +5,12 @@ import Header from './Header'
 import Footer from './Footer'
 
 // Importe as imagens locais
-import project1Img from '/IMG/projeto1.png' 
-import project2Img from '/IMG/projeto2.png'
-import project3Img from '/IMG/projeto3.png'
-import project4Img from '/IMG/projeto4.png'
-import project5Img from '/IMG/projeto5.png'
-import project6Img from '/IMG/projeto6.png'
+const project1Img = '/IMG/projeto1.png' 
+const project2Img = '/IMG/projeto2.png'
+const project3Img = '/IMG/projeto3.png'
+const project4Img = '/IMG/projeto4.png'
+const project5Img = '/IMG/projeto5.png'
+const project6Img = '/IMG/projeto6.png'
 
 export default function ProjectsSection() {
   const projects = [

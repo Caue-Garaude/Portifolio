@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import Header from "./Header";
-import profileImage from '/IMG/Fotoperfil.jpeg'; 
+const profileImage = '/IMG/Fotoperfil.jpeg'; 
 
 export default function Sobre() {
   return (

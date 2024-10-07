@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import Header from "./Header";
-import resumeImage from './IMG/curriculo.jpeg'; 
+const resumeImage =  './IMG/curriculo.jpeg'; 
 import resumePDF from './assets/curriculo.pdf'; 
 
 export default function Curriculo() {

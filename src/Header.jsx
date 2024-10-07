@@ -1,5 +1,5 @@
 'use client'
-import logoimg from '/img/logo.png' 
+const logoimg = '/IMG/logo.png' ;
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import {
