@@ -11,6 +11,8 @@ const project3Img = '/IMG/projeto3.png'
 const project4Img = '/IMG/projeto4.png'
 const project5Img = '/IMG/projeto5.png'
 const project6Img = '/IMG/projeto6.png'
+const project7Img = '/IMG/projeto7.png'
+const project8Img = '/IMG/projeto8.png'
 
 export default function ProjectsSection() {
   const projects = [
@@ -33,10 +35,10 @@ export default function ProjectsSection() {
       link: 'https://caue-garaude.github.io/EcoShop/',
     },
     {
-      name: 'Ocean Guardian',
-      description: 'Ocean Guardian é um projeto que visa conscientizar e informar sobre a saúde dos oceanos,',
+      name: 'Mahindra Racing',
+      description: 'Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web, com o objetivo de criar uma landing page interativa para a Mahindra Racing. Esta página destina-se a oferecer informações sobre a equipe de corrida, seus pilotos, conquistas e eventos futuros. Além disso, inclui uma funcionalidade de login para acessar áreas restritas do site',
       image: project4Img, 
-      link: 'https://caue-garaude.github.io/OCEAN-GUARDIAN/',
+      link: 'https://mahindra-racing.vercel.app/',
     },
     {
       name: 'Optimus Tech',
@@ -49,6 +51,18 @@ export default function ProjectsSection() {
       description: 'Este é o repositório do site Alura Plus, que apresenta informações sobre os serviços oferecidos pela Alura, como cursos online, assinaturas e disponibilidade em diferentes dispositivos.',
       image: project6Img, 
       link: 'https://aluraplus-taupe-one.vercel.app/',
+    },
+    {
+      name: 'Ocean Guardian',
+      description: 'Ocean Guardian é um projeto que visa conscientizar e informar sobre a saúde dos oceanos, promovendo uma gestão sustentável por meio de uma plataforma web interativa.',
+      image: project7Img, 
+      link: 'https://ocean-guardian.vercel.app/',
+    },
+    {
+      name: 'Portifólio',
+      description: 'Este é o repositório do meu portfólio pessoal, onde apresento meus projetos, habilidades e experiências profissionais.',
+      image: project8Img, 
+      link: 'https://portifolio-psi-navy.vercel.app/',
     },
   ]
 
