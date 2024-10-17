@@ -42,7 +42,7 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          <NavLink to="/" className="text-sm font-semibold leading-6 text-gray-900">
+          <NavLink to="/" className="text-sm font-semibold leading-6 text-gray-900 ">
             Projetos
           </NavLink>
           <NavLink to="/sobre" className="text-sm font-semibold leading-6 text-gray-900">
